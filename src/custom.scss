@@ -1,0 +1,22 @@
+// make your customizations
+
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+// @import"../node_modules/bootstrap/scss/variables"
+$primary: #000000;
+// $secondary: #8f5325;
+// $success: #3e8d63;
+// $info: #7854e4;
+// $warning: #b8c924;
+// $danger: #d62518;
+
+// $theme-colors: (
+//     "info": pink,
+//     "danger": teal,
+//     "primary": black
+// );
+
+// import bootstrap stylesheet
+
+@import '~bootstrap/scss/bootstrap';

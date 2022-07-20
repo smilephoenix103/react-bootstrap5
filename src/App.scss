@@ -1,0 +1,135 @@
+.App {
+  // text-align: center;
+  background-color: #FAFAFF;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.splite {}
+
+.logos {}
+
+.cards {
+
+
+  .new {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+  }
+}
+
+.price {}
+
+.quote {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  .panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 600px;
+  }
+
+  img {
+    width: 64px;
+    height: 64px;
+  }
+}
+
+.content-image {}
+
+.feature {
+
+  height: 100%;
+
+  .img-container {
+    width: 64px;
+    height: 64px;
+
+    img {
+      width: 24px;
+      height: 24px;
+    }
+  }
+}
+
+.contact {
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+
+  .contact-panel {
+    max-width: 49.5rem;
+
+    .form-color {
+      background-color: #242464;
+    }
+  }
+
+
+}
+
+.download {
+
+  background-color: #242464;
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+  // flex-direction: column;
+  // .contact-panel {
+  //   max-width: 49.5rem;
+  // }
+}
+
+
+
+
+
+
+
+@import "./custom.scss";
+// @import "~bootstrap/scss/bootstrap";
